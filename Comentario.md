@@ -13,7 +13,7 @@ En este caso he decidido visualizar Europa en el año 2014, en concreto a los pa
 
 ![recorte 2](https://user-images.githubusercontent.com/90326299/132986940-356b07f8-92e6-4e0d-a16d-0a4470cb7dc7.png)
 
-Un aspecto positivo de esta exposición de datos es la cantidad de información sobre sí mismo que aporta: no solo disponemos de la leyenda a la derecha de la imagen, que nos permite interpretar adecuadamente los datos que se plasman en el mapa,
+Un aspecto positivo de esta exposición de datos es la cantidad de información sobre sí misma que aporta: no solo disponemos de la leyenda a la derecha de la imagen, que nos permite interpretar adecuadamente los datos que se plasman en el mapa,
 sino también de un anexo que aclara las fuentes empleadas, lo que nos permite rastrear las investigaciones, estadísticas o libros de los que se ha extraído la información.
 De esta manera se puede facilita un acercamiento y una lectura más crítica o contrastiva de los datos que presenta.
 
