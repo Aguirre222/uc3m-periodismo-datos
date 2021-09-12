@@ -24,5 +24,4 @@ la evolucuón histórica del peso de la energía nuclear en los países que esco
 ![recorte 3](https://user-images.githubusercontent.com/90326299/132992623-dc1dc218-0a86-41f0-954a-f67ee504d612.png)
 
 
-La información muestra una apariencia atractiva, formal y accesible, aunque la predominancia de colores grises da la sensación de falta de investigación. No obstante,
-tiene un formato adecuado para ser presentada en un medio periodístico, pues transmite lo necesario de forma directa y clara.
+La información muestra una apariencia atractiva, formal y accesible, aunque la predominancia de colores grises da la sensación de falta de investigación. 
