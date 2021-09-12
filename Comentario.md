@@ -27,4 +27,4 @@ la evolucuón histórica del peso de la energía nuclear en los países que esco
 La información muestra una apariencia atractiva, formal y accesible, aunque la predominancia de colores grises da la sensación de falta de investigación. 
 
 
-URL del gráfico: https://ourworldindata.org/grapher/nuclear-primary-energy
+**URL del gráfico: https://ourworldindata.org/grapher/nuclear-primary-energy
