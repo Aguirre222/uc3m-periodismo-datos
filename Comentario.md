@@ -13,7 +13,7 @@ En este caso he decidido visualizar Europa en el año 2014, en concreto a los pa
 
 ![recorte 2](https://user-images.githubusercontent.com/90326299/132986940-356b07f8-92e6-4e0d-a16d-0a4470cb7dc7.png)
 
-Un aspecto positivo de esta exposición de datos es la cantidad de información sobre sí mismo que aporta: no solo disponemos de la leyenda a la derecha de la imagen
+Un aspecto positivo de esta exposición de datos es la cantidad de información sobre sí mismo que aporta: no solo disponemos de la leyenda a la derecha de la imagen, que nos permite interpretar adecuadamente los datos que se plasman en el mapa,
 sino también de un anexo que aclara las fuentes empleadas, lo que nos permite rastrear las investigaciones, estadísticas o libros de los que se ha extraído la información.
 De esta manera se puede facilita un acercamiento y una lectura más crítica o contrastiva de los datos que presenta.
 
@@ -24,4 +24,5 @@ la evolucuón histórica del peso de la energía nuclear en los países que esco
 ![recorte 3](https://user-images.githubusercontent.com/90326299/132992623-dc1dc218-0a86-41f0-954a-f67ee504d612.png)
 
 
-La información muestra una apariencia atractiva, formal y accesible, aunque la predominancia de colores grises da la sensación de falta de investigación.
+La información muestra una apariencia atractiva, formal y accesible, aunque la predominancia de colores grises da la sensación de falta de investigación. No obstante,
+tiene un formato adecuado para ser presentada en un medio periodístico, pues transmite lo necesario de forma directa y clara.
