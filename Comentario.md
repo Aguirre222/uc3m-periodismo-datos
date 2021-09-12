@@ -15,4 +15,4 @@ En este caso he decidido visualizar Europa en el año 2014, en concreto a los pa
 
 Un aspecto positivo de esta exposición de datos es la cantidad de información sobre sí mismo que aporta: no solo disponemos de la leyenda a la derecha de la imagen
 sino también de un anexo que aclara las fuentes empleadas, lo que nos permite rastrear las investigaciones, estadísticas o libros de los que se ha extraído la información.
-De esta manera se puede plantear un
+De esta manera se puede facilita un acercamiento y una lectura más crítica o contrastiva de los datos que presenta.
