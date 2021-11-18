@@ -1,4 +1,4 @@
- #Segundo comentario de visualización de información y periodismo de datos
+# Segundo comentario de visualización de información y periodismo de datos
 
 ## EL SALTO - Datos sobre la Población activa, noticia del 29 de julio de 2021
 
