@@ -78,7 +78,7 @@ De esta manera ya tenemos dos conjuntos de datos limpios con los cuales trabajar
 ### Proceso de creación de las infografías
 
 En ambas infografías he seguido exactamente los mismos pasos, pues he escogido gráficos circulares (o de tarta), ya que son efectivos para representar proporciones dentro de un total 
-(por ejemplo qué hashtagha sido el más frecuente dentro del conjunto escogido). Además, como no manejo una cantidad demasiado grande de datos en ambas muestras (menos de 10), 
+(por ejemplo, qué hashtag ha sido el más frecuente dentro del conjunto escogido). Además, como no manejo una cantidad demasiado grande de datos en ambas muestras (menos de 10), 
 emplear este tipo de infografía me pareció lo más visual.
 
 Una vez dentro de la página de Datawrapper subí a la página el archivo Excel al que había exportado el proyecto. En el tercer paso “Visualize” elegí un color distinto para cada 
