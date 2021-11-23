@@ -62,3 +62,28 @@ Exporto el documento y lo nombro como Proyecto 1 y será el que convierta en la 
 
 ![Imagen 10](imagenes/imagen-10-practica-3.png)
 
+![Imagen 11](imagenes/imagen-11-practica-3.png)
+
+![Imagen 12](imagenes/imagen-12-practica-3.png)
+
+
+Para la segunda infografía los pasos son exactamente los mismos, pero esta vez busco todas las veces que ha sido tendencia la fórmula #FelizCumple______, como se ve en la imagen siguiente.
+
+![Imagen 13](imagenes/imagen-13-practica-3.png)
+
+De esta manera ya tenemos dos conjuntos de datos limpios con los cuales trabajar.
+
+
+
+### Proceso de creación de las infografías
+
+En ambas infografías he seguido exactamente los mismos pasos, pues he escogido gráficos circulares (o de tarta), ya que son efectivos para representar proporciones dentro de un total 
+(por ejemplo qué hashtagha sido el más frecuente dentro del conjunto escogido). Además, como no manejo una cantidad demasiado grande de datos en ambas muestras (menos de 10), 
+emplear este tipo de infografía me pareció lo más visual.
+
+Una vez dentro de la página de Datawrapper subí a la página el archivo Excel al que había exportado el proyecto. En el tercer paso “Visualize” elegí un color distinto para cada 
+sección, de manera que ningunase pareciera a otra. En ambos casos decidí que mostrara todos los valores dentro de la leyenda. En el cuarto paso, “Publish and embed” decidí publicarlo 
+para usar la dirección, en lugar del png. Esto lo decidí así porque permite una mayor interacción con los datos que se muestran. 
+
+
+
