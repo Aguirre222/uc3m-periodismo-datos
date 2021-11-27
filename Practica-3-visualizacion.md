@@ -2,9 +2,10 @@
 
 ## Enlaces a las infografías:
 
-Número de veces que hashtags valorativos de "FelipeVI" han sido “trending topic” entre marzo y julio de 2020: https://datawrapper.dwcdn.net/Wl5R0/1/
+Número de veces que hashtags valorativos de "FelipeVI" han sido “trending topic” entre marzo y julio de 2020: https://datawrapper.dwcdn.net/Vp8Sn/1/
 
-Número de veces que hashtags de cumpleaños con la fórmula FelizCumple_____ han sido “trending topic” entre marzo y julio de 2020: https://datawrapper.dwcdn.net/VPe5u/1/
+Número de veces que hashtags de cumpleaños con la fórmula FelizCumple_____ han sido “trending topic” entre marzo y julio de 2020: https://datawrapper.dwcdn.net/wc7La/1/
+
 
 ## Proceso de selección y limpieza de datos
 
@@ -81,9 +82,7 @@ En ambas infografías he seguido exactamente los mismos pasos, pues he escogido 
 (por ejemplo, qué hashtag ha sido el más frecuente dentro del conjunto escogido). Además, como no manejo una cantidad demasiado grande de datos en ambas muestras (menos de 10), 
 emplear este tipo de infografía me pareció lo más visual.
 
-Una vez dentro de la página de Datawrapper subí a la página el archivo Excel al que había exportado el proyecto. En el tercer paso “Visualize” elegí un color distinto para cada 
-sección, de manera que ningunase pareciera a otra. En ambos casos decidí que mostrara todos los valores dentro de la leyenda. En el cuarto paso, “Publish and embed” decidí publicarlo 
-para usar la dirección, en lugar del png. Esto lo decidí así porque permite una mayor interacción con los datos que se muestran. 
+Una vez dentro de la página de Datawrapper subí el archivo Excel en el que estaba exportado mi proyecto. En el tercer paso, “Visualize”, para la gráfica con los datos acerca de Felipe VI, elegí los colores de la bandera anarcomunista (rojo y negro) y el color azul, asociado a la realeza. La elección del primer par de colores viene dada por el recorrido histórico del anarquismo como movimiento político contrario a la monarquía y a las jerarquías sociales de cualquier tipo. Por esta razón todos los hashtags contrarios al Felipe VI tienen negro o rojo (las secciones de rojo y negro tienen en cada caso distintas tonalidades, para ser fácilmente identificables una de la otra). Para escoger los colores de la segunda infografía hice una búsqueda rápida de la palabra "cumpleaños" y examiné las imágenes relacionadas con ella. Decidí los colores a partir de los que aparecían en la mayoría de representaciones cumpleañeras: amarillo, púrpura, rosa, azul y verde.    
 
 
 
