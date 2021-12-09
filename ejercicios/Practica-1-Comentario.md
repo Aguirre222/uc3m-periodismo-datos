@@ -1,6 +1,9 @@
 # Comentario visualización de datos
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> b98cb99e254b17df4dec8e1879cc65bdab8c719c
 **Importancia de la nuclear según país**
 
 En este escrito comentaré la siguiente gráfica, extraída del sitio web _Our world in data_, que pretende mostrar el peso de la energía nuclear a nivel global.

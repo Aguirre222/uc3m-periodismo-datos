@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>Sticky Footer Navbar Template · Bootstrap v5.1</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/sticky-footer-navbar/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="css/sticky-footer-navbar.css" rel="stylesheet">
+  </head>
+  <body class="d-flex flex-column h-100">
+    
+<header>
+  <!-- Fixed navbar -->
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Fixed navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<!-- Begin page content -->
+<main class="flex-shrink-0">
+  <div class="container">
+
+
+<h1 id="table-of-contents">Table of Contents</h1>
+<ol type="1">
+<li><a href="#orge80ef34">Contenidos</a>
+<ol type="1">
+<li><a href="#orgfbfe030">Pandoc</a></li>
+<li><a href="#orgd940798">nano</a></li>
+<li><a href="#orgb41739f">zenburn</a></li>
+<li><a href="#orga5904d6">OpenRefine</a>
+<ol type="1">
+<li><a href="#orgd197275">Cómo utilizar el conteo de las facetas</a></li>
+<li><a href="#org7843eb3">Crear una columna con los valores de otra columna</a></li>
+<li><a href="#org84a8ec7">Cómo sumar todos los valores de un registro</a></li>
+<li><a href="#org34e3957">Otras</a></li>
+</ol></li>
+</ol></li>
+<li><a href="#org0098996">Pruebas</a></li>
+</ol>
+<p><a id="orge80ef34"></a></p>
+<h1 id="contenidos">Contenidos</h1>
+<ul>
+<li>Pandoc</li>
+<li>nano</li>
+<li>zenburn</li>
+<li>Refine</li>
+</ul>
+<p><a id="orgfbfe030"></a></p>
+<h2 id="pandoc">Pandoc</h2>
+<ul>
+<li>Tiene una página donde se puede probar y da ejemplos</li>
+<li>Pero tenemos todo el manual con <code>man pandoc</code></li>
+<li>Se descarga de pandoc.org</li>
+<li>Una vez instalado, se puede usar desde la terminal. Ten en cuenta que si tienes la terminal abierta mientras lo instalas no se actualizarán las rutas de la variable <code>PATH</code> por lo que conviene cerrar la terminal y volver a abrirla.</li>
+<li>Recuerda que para ver la variable <code>PATH</code> puedes hacer <code>echo $PATH</code>.</li>
+<li>Y si no te lo ha incluido, puedes añadir la ruta a la variable con <code>export PATH=$PATH:/ruta/absoluta/a/directorio/binario/pandoc/</code>. Esto funcionará para la sesión. Si quieres que sea un cambio permanente debes añadirlo a <code>.bashrc</code> o <code>.zshrc</code> según tu <code>shell</code>.</li>
+<li>Puedes comprobar qué <code>shell</code> tienes con <code>echo $SHELL</code>.</li>
+<li>Comprueba que tienes pandoc con <code>pandoc --version</code>.</li>
+</ul>
+<p><a id="orgd940798"></a></p>
+<h2 id="nano">nano</h2>
+<ul>
+<li>Dado que estáis utilizando mucho nano os recomiendo dos cosas de nano que se pueden poner en su configuración.</li>
+<li>Primero comprobad que tenéis un archivo de configuración de <code>nano</code> con <code>ls ~/.nano* ~/nano*</code>. Si sale algo, echad un vistazo a ese archivo desde nano con <code>nano .nanorc</code>, si fuera <code>.nanorc</code> el nombre del archivo que tenéis.</li>
+<li>Tenéis que fijaros si tenéis comentadas o escritas dos opciones: <code>set softwrap</code> y <code>set linenumbers</code>. Escribidlo si no lo tenéis, guardadlo y salid. La próxima vez que entréis debéis tener ya las dos opciones activas.</li>
+</ul>
+<p><a id="orgb41739f"></a></p>
+<h2 id="zenburn">zenburn</h2>
+<ul>
+<li>Cuando se usa mucho tiempo la terminal conviene tener un tema agradable como puede ser <strong>Zenburn</strong>. Para instalarlo en Cygwin podéis seguir este <a href="https://github.com/beedaan/mintty_zenburn">enlace</a> o <a href="https://github.com/sonatard/color-theme-zenburn">este otro</a> que es el que he seguido en clase.</li>
+<li>Quien no tenga Cygwin sino Mintty (git-cli) también puede hacerlo.</li>
+<li>En GNOME (GNU/Linux) hay opción gráfica para cambiar el aspecto a Zenburn theme.</li>
+<li>En OSX hay opción gráfica aunque no sé si para Zenburn.</li>
+</ul>
+<p><a id="orga5904d6"></a></p>
+<h2 id="openrefine">OpenRefine</h2>
+<p>Voy a resumir las dos operaciones que había preparado más la que presentó el compañero Aguirre. Empezaré por esta.</p>
+<p><a id="orgd197275"></a></p>
+<h3 id="cómo-utilizar-el-conteo-de-las-facetas">Cómo utilizar el conteo de las facetas</h3>
+<pre><code>value.facetCount(&quot;value&quot;,&quot;Column 3&quot;)</code></pre>
+<p><a id="org7843eb3"></a></p>
+<h3 id="crear-una-columna-con-los-valores-de-otra-columna">Crear una columna con los valores de otra columna</h3>
+<pre><code>value = value.strip().lower()
+if &quot;trump&quot; in value:
+    return &quot;Donald Trump&quot;</code></pre>
+<p>&lt;a id=“org8</p>
+    <h1 class="mt-5">Sticky footer with fixed navbar</h1>
+    <p class="lead">Pin a footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added with <code class="small">padding-top: 60px;</code> on the <code class="small">main &gt; .container</code>.</p>
+    <p>Back to <a href="../examples/sticky-footer/">the default sticky footer</a> minus the navbar.</p>
+  </div>
+</main>
+
+<footer class="footer mt-auto py-3 bg-light">
+  <div class="container">
+    <span class="text-muted">Place sticky footer content here.</span>
+  </div>
+</footer>
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>

@@ -1,0 +1,59 @@
+<h1 id="practica-3-visualización">Practica-3-visualización</h1>
+<h2 id="enlaces-a-las-infografías">Enlaces a las infografías:</h2>
+<p>Número de veces que hashtags valorativos de “FelipeVI” han sido “trending topic” entre marzo y julio de 2020: https://datawrapper.dwcdn.net/Vp8Sn/1/</p>
+<p>Número de veces que hashtags de cumpleaños con la fórmula FelizCumple_____ han sido “trending topic” entre marzo y julio de 2020: https://datawrapper.dwcdn.net/wc7La/1/</p>
+<h2 id="proceso-de-selección-y-limpieza-de-datos">Proceso de selección y limpieza de datos</h2>
+<p>En el presente trabajo quería visualizar, a partir del documento “feliz.csv” y mediante gráficos circulares (o de tarta), los datos que indican el número de veces que determinados mensajes fueron tendencia (“trending topic”) en un periodo de tiempo. Para ello sometí al archivo a un proceso de limpieza y selección de datos para el cual empleé la herramienta OpenRefine. Para ambos gráficos seguí pasos similares. Primero configuré el proyecto tal y como se muestra en la siguiente imagen:</p>
+<figure>
+<img src="imagenes/imagen-1-practica-3.png" alt="Imagen 1" /><figcaption aria-hidden="true">Imagen 1</figcaption>
+</figure>
+<p>A continuación, borré las columnas 1,4,5 y 6, trasladé la columna 3 al inicio y la renombré como “Sujetos”.</p>
+<figure>
+<img src="imagenes/imagen-2-practica-3.png" alt="Imagen 2" /><figcaption aria-hidden="true">Imagen 2</figcaption>
+</figure>
+<figure>
+<img src="imagenes/imagen-3-practica-3.png" alt="Imagen 3" /><figcaption aria-hidden="true">Imagen 3</figcaption>
+</figure>
+<p>Después usé “common transformations” para que los datos de las celdas de la columna 2 fueran leídos como fechas. Hecho esto, apliqué la faceta de línea de tiempo sobre la misma columna y con la herramienta de “edit rows” y “star rows” me quedé solo con los datos contenidos entre el 18 de marzo de 2020 y el 29 de julio de 2020. Escogí esta franja por ser la más activa de todo el documento (como se puede observar en la Timeline).</p>
+<figure>
+<img src="imagenes/imagen-4-practica-3.png" alt="Imagen 4" /><figcaption aria-hidden="true">Imagen 4</figcaption>
+</figure>
+<figure>
+<img src="imagenes/imagen-5-practica-3.png" alt="Imagen 5" /><figcaption aria-hidden="true">Imagen 5</figcaption>
+</figure>
+<p>Una vez tuve la horquilla temporal deseada, usé la faceta de texto en la columna “Sujetos” (en la que puedo ver el nº de veces que aparece cada palabra, hashtag, nombre, etc) y luego el filtro de texto, en el que escribí “FelipeVI” pues quería quedarme solo con aquellos hashtags que dan una opinión acerca de Felipe VI. Es por esta razón que descarté “#FelipeVI”: no aporta ninguna opinión acerca de él. Para excluirlo usé la faceta de texto como se ve en la imagen.</p>
+<figure>
+<img src="imagenes/imagen-6-practica-3.png" alt="Imagen 6" /><figcaption aria-hidden="true">Imagen 6</figcaption>
+</figure>
+<p>Al ser mi objetivo representar en una visualización de datos la frecuencia que tuvieron cada uno de estos mensajes dentro del periodo mencionado, necesitaba crear una columna que reflejara las cantidades quese ven en la faceta de texto (es decir, que mostrara que “#VivaElReyFelipeVI” aparece 2 veces, “#FelipeVIFarsante” aparece 4, etc). Para ello usé la opción “add column based on this column”. A esta nueva columna la nombré “Repeticiones” y en la caja de texto escribí la siguiente función:</p>
+<p>value.facetCount(“value”, “Sujetos”)</p>
+<p>De esta manera mi nueva columna tendrá en cada celda el número de veces que aparece un valor en la columna “Sujetos”, como vemos en la tercera imagen de abajo.</p>
+<figure>
+<img src="imagenes/imagen-7-practica-3.png" alt="Imagen 7" /><figcaption aria-hidden="true">Imagen 7</figcaption>
+</figure>
+<figure>
+<img src="imagenes/imagen-8-practica-3.png" alt="Imagen 8" /><figcaption aria-hidden="true">Imagen 8</figcaption>
+</figure>
+<figure>
+<img src="imagenes/imagen-9-practica-3.png" alt="Imagen 9" /><figcaption aria-hidden="true">Imagen 9</figcaption>
+</figure>
+<p>Ahora, para la visualización adecuada, necesito que solo halla un dato por cada celda en ambas columnas (“Sujetos” y “Repeticiones”), pues de no ser así cada celda será representada como un dato individual y, así, el hashtag #PírateYaFelipeVI aparecería 22 veces, lo que no favorece a la representación y fácil lectura de la información.</p>
+<p>Primero, para quedarme con una celda por cada dato, las organicé por orden alfabético y en cada caso borré todas las celdas idénticas menos 1, que será la representativa en el documento que se suba a datawrapper. Para ello usé la pestaña “editar” que aparece ubicando la flecha encima de una celda. En el ejemplo de abajo he borrado una de las dos celdas de la columna “Sujetos” que contiene “#VivaElReyFelipeVI”. Una vez que tengo la celda única en cada uso la opción “Facet” en la columna “Sujetos” y dentro de “Customized Facets” elijo “Facet by blank”. De esta manera elimino todas las celdas en blanco y me quedan solo con las que trabajaré en la visualización.</p>
+<p>Exporto el documento y lo nombro como Proyecto 1 y será el que convierta en la primera infografía.</p>
+<figure>
+<img src="imagenes/imagen-10-practica-3.png" alt="Imagen 10" /><figcaption aria-hidden="true">Imagen 10</figcaption>
+</figure>
+<figure>
+<img src="imagenes/imagen-11-practica-3.png" alt="Imagen 11" /><figcaption aria-hidden="true">Imagen 11</figcaption>
+</figure>
+<figure>
+<img src="imagenes/imagen-12-practica-3.png" alt="Imagen 12" /><figcaption aria-hidden="true">Imagen 12</figcaption>
+</figure>
+<p>Para la segunda infografía los pasos son exactamente los mismos, pero esta vez busco todas las veces que ha sido tendencia la fórmula #FelizCumple______, como se ve en la imagen siguiente.</p>
+<figure>
+<img src="imagenes/imagen-13-practica-3.png" alt="Imagen 13" /><figcaption aria-hidden="true">Imagen 13</figcaption>
+</figure>
+<p>De esta manera ya tenemos dos conjuntos de datos limpios con los cuales trabajar.</p>
+<h3 id="proceso-de-creación-de-las-infografías">Proceso de creación de las infografías</h3>
+<p>En ambas infografías he seguido exactamente los mismos pasos, pues he escogido gráficos circulares (o de tarta), ya que son efectivos para representar proporciones dentro de un total (por ejemplo, qué hashtag ha sido el más frecuente dentro del conjunto escogido). Además, como no manejo una cantidad demasiado grande de datos en ambas muestras (menos de 10), emplear este tipo de infografía me pareció lo más visual.</p>
+<p>Una vez dentro de la página de Datawrapper subí el archivo Excel en el que estaba exportado mi proyecto. En el tercer paso, “Visualize”, para la gráfica con los datos acerca de Felipe VI, elegí los colores de la bandera anarcomunista (rojo y negro) y el color azul, asociado a la realeza. La elección del primer par de colores viene dada por el recorrido histórico del anarquismo como movimiento político contrario a la monarquía y a las jerarquías sociales de cualquier tipo. Por esta razón todos los hashtags contrarios al Felipe VI tienen negro o rojo (las secciones de rojo y negro tienen en cada caso distintas tonalidades, para ser fácilmente identificables una de la otra). Para escoger los colores de la segunda infografía hice una búsqueda rápida de la palabra “cumpleaños” y examiné las imágenes relacionadas con ella. Decidí los colores a partir de los que aparecían en la mayoría de representaciones cumpleañeras: amarillo, púrpura, rosa, azul y verde.</p>
