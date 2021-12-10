@@ -1,12 +1,12 @@
 <!doctype html>
-<html lang="en" class="h-100">
+<html lang="es" class="h-100">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.88.1">
-    <title>Sticky Footer Navbar Template · Bootstrap v5.1</title>
+    <title>Index</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/sticky-footer-navbar/">
 
@@ -41,20 +41,20 @@
   <!-- Fixed navbar -->
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Fixed navbar</a>
+      <a class="navbar-brand" href="#">Adrián Sánchez Arquero y Miguel Ángel Aguirre</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav me-auto mb-2 mb-md-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="#">Periodismo de Datos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#">Trabajo Final</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
+            <a class="nav-link disabled">Práctica 5</a>
           </li>
         </ul>
         <form class="d-flex">
@@ -71,79 +71,297 @@
   <div class="container">
 
 
-<h1 id="table-of-contents">Table of Contents</h1>
+<h1 id="trabajo-final"><u>Index</u></h1>
+
+
+
+
+
+<h1 id="table-of-contents">Índice</h1>
 <ol type="1">
-<li><a href="#orge80ef34">Contenidos</a>
-<ol type="1">
-<li><a href="#orgfbfe030">Pandoc</a></li>
-<li><a href="#orgd940798">nano</a></li>
-<li><a href="#orgb41739f">zenburn</a></li>
-<li><a href="#orga5904d6">OpenRefine</a>
-<ol type="1">
-<li><a href="#orgd197275">Cómo utilizar el conteo de las facetas</a></li>
-<li><a href="#org7843eb3">Crear una columna con los valores de otra columna</a></li>
-<li><a href="#org84a8ec7">Cómo sumar todos los valores de un registro</a></li>
-<li><a href="#org34e3957">Otras</a></li>
+<li><a href="#orge80ef34">Práctica 1 - Miguel</a>
+<li><a href="#orgfbfe030">Práctica 2 - Miguel</a></li>
+<li><a href="#orgd940798">Práctica 3 - Miguel</a></li>
+<li><a href="#orgb41739f">Práctica 4 - Miguel</a></li>
+<li><a href="#orga5904d6">Práctica 1 - Adrián</a>
+<li><a href="#orgd197275">Práctica 2 - Adrián</a></li>
+<li><a href="#org7843eb3">Práctica 3 - Adrián</a></li>
+<li><a href="#org84a8ec7">Práctica 4 - Adrián</a></li>
+<li><a href="#org34e3957">Metodología</a></li>
 </ol></li>
 </ol></li>
-<li><a href="#org0098996">Pruebas</a></li>
-</ol>
+
+
 <p><a id="orge80ef34"></a></p>
-<h1 id="contenidos">Contenidos</h1>
-<ul>
-<li>Pandoc</li>
-<li>nano</li>
-<li>zenburn</li>
-<li>Refine</li>
-</ul>
-<p><a id="orgfbfe030"></a></p>
-<h2 id="pandoc">Pandoc</h2>
-<ul>
-<li>Tiene una página donde se puede probar y da ejemplos</li>
-<li>Pero tenemos todo el manual con <code>man pandoc</code></li>
-<li>Se descarga de pandoc.org</li>
-<li>Una vez instalado, se puede usar desde la terminal. Ten en cuenta que si tienes la terminal abierta mientras lo instalas no se actualizarán las rutas de la variable <code>PATH</code> por lo que conviene cerrar la terminal y volver a abrirla.</li>
-<li>Recuerda que para ver la variable <code>PATH</code> puedes hacer <code>echo $PATH</code>.</li>
-<li>Y si no te lo ha incluido, puedes añadir la ruta a la variable con <code>export PATH=$PATH:/ruta/absoluta/a/directorio/binario/pandoc/</code>. Esto funcionará para la sesión. Si quieres que sea un cambio permanente debes añadirlo a <code>.bashrc</code> o <code>.zshrc</code> según tu <code>shell</code>.</li>
-<li>Puedes comprobar qué <code>shell</code> tienes con <code>echo $SHELL</code>.</li>
-<li>Comprueba que tienes pandoc con <code>pandoc --version</code>.</li>
-</ul>
+<h1 id="comentario-visualización-de-datos"><u>Práctica 1 - Miguel</u></h1>
+<p><strong>Importancia de la nuclear según país</strong></p>
+<p>En este escrito comentaré la siguiente gráfica, extraída del sitio web <em>Our world in data</em>, que pretende mostrar el peso de la energía nuclear a nivel global.</p>
+<p><img src="https://user-images.githubusercontent.com/90326299/132986506-6b454d1d-d97b-4783-8fee-e8e6551b4119.png" alt="Captura de pantalla 2021-09-12 135137" width="1200" /> 
+<p>Como se observa en esta captura, la gráfica emplea el mapeo de datos, en este caso usa un mapamundi, que aprovecha colores de variable intensidad para ejemplificar el nivel de importancia que ocupa la energía obtenida de fuentes nucleares dentro del total de cada país.</p>
+<p>En este caso, la visualización de datos es interactiva y nos permite aplicar filtros para obtener una informacion más acorde con nuestros intereses. Podemos acotar según año (desde 1965 hasta 2019), el grado de uso de la nuclear (desde los países que se hallan entre el 0 y el 2,5% hasta los que superan el 25%) o según continente. En este caso he decidido visualizar Europa en el año 2014, en concreto a los países cuya energía proviene entre un 15 y un 20% de la nuclear. El resultado es el siguiente:</p>
+<figure>
+<img src="https://user-images.githubusercontent.com/90326299/132986940-356b07f8-92e6-4e0d-a16d-0a4470cb7dc7.png" alt="recorte 2" width= "1200" /><figcaption aria-hidden="true">recorte 2</figcaption>
+</figure>
+<p>Un aspecto positivo de esta exposición de datos es la cantidad de información sobre sí misma que aporta: no solo disponemos de la leyenda a la derecha de la imagen, que nos permite interpretar adecuadamente los datos que se plasman en el mapa, sino también de un anexo que aclara las fuentes empleadas, lo que nos permite rastrear las investigaciones, estadísticas o libros de los que se ha extraído la información. De esta manera se puede facilita un acercamiento y una lectura más crítica o contrastiva de los datos que presenta.</p>
+<p>Además, la página que aloja esta visualización permite exponer la misma información en un formato de tablas o de gráfico de líneas, que permite ver la evolucuón histórica del peso de la energía nuclear en los países que escojamos.</p>
+<figure>
+<img src="https://user-images.githubusercontent.com/90326299/132992623-dc1dc218-0a86-41f0-954a-f67ee504d612.png" alt="recorte 3" width="1200" /><figcaption aria-hidden="true">recorte 3</figcaption>
+</figure>
+<p>La información muestra una apariencia atractiva, formal y accesible, aunque la predominancia de colores grises da la sensación de falta de investigación.</p>
+<p><strong>URL del gráfico:</strong> https://ourworldindata.org/grapher/nuclear-primary-energy</p>
+<p>fin de comentario</p>
+
+
+<p><a id="orgfbfe030""></a></p>
+<h1 id="segundo-comentario-de-visualización-de-información-y-periodismo-de-datos"><u>Práctica 2 - Miguel</u></h1>
+<h2 id="el-salto---datos-sobre-la-población-activa-noticia-del-29-de-julio-de-2021">EL SALTO - Datos sobre la Población activa, noticia del 29 de julio de 2021</h2>
+<p>En la <a href="http://ix.io/3Fcv">publicación</a> de El Salto titulada “El Gobierno se da un respiro con los buenos datos de la Encuesta de Población Activa” se han utilizado 2 infografías para apoyar la información que se da y en ambas se opta por mostrar una evolución temporal.</p>
+<h3 id="periodismo-de-datos-el-salto">Periodismo de datos: El Salto</h3>
+<p>El tema central de la noticia es el recorrido que ha tenido la creación de empleo en España en estos últimos años, centrándose el tono crítico en la proliferación de los contratos temporales y en la rotación laboral. Si bien las dos infografías que acompañan a la noticia son el uso de datos más evidente, en todo el texto hallo continuas exposiciones de información que considero periodismo apoyado en datos: “El crecimiento de asalariados que tienen contrato indefinido ha sido de 98.100 personas y han crecido hasta 305.000 los trabajadores con contratos temporales. Eso sitúa los contratos temporales en el 25% del total del empleo”; “La tasa de paro, que sigue siendo la más alta de toda la UE, se mantiene no obstante en el 15,26% y es un 0,7% menor que la de la última encuesta trimestral del Instituto Nacional de Estadística. La botella medio vacía: sigue creciendo mucho más el modelo de contratación temporal con respecto al contrato indefinido”. A pesar de la corta extensión de la pieza, el uso de esta información permite obtener una somera imagen de la evolución laboral que afecta al país en la última década.</p>
+<h3 id="primera-infografía">Primera Infografía</h3>
+<p>Ambas infografías son de elaboración propia y en ellas se han empleado datos de la EPA (Encuesta de Población Activa), si bien citan primero como fuente al gabinete económico de Comisiones Obreras. Ambas infografías también coinciden en que fueron confeccionadas usando Datawrapper y no están fijadas como imágenes, sino que se utiliza como origen el propio URL de Datawrapper. A continuación adjunto en enlace la URL del primer <a href="https://datawrapper.dwcdn.net/0qo7V/1/">gráfico</a>.</p>
+<p>En el gráfico de barras que precede al cuerpo de la noticia debería poder ver, siguiendo al pie de la letra la leyenda de la gráfica, la variación que ha tenido en cada trimestre la proporción entre la población ocupada y la desempleada. En la práctica se ha optado por limitar los datos expuestos al <em>primer trimestre de cada año</em> desde 2012 hasta 2021, incluyendo el segundo trimestre de 2021 (los datos más actualizados hasta la fecha). La infografía presenta una ligera interactividad, pues podemos ubicar el cursor encima de cualquier barra de uno de los dos grupos (población empleada o desempleada) y se nos resaltará exclusivamente el conjunto al que pertenezca dicha barra al mismo tiempo que se indica, en miles, la cantidad de población ocupada o desempleada por trimestre. De este modo veo que, en cuanto a la población activa, destacan los primeros trimestres de 2014, 2015 y 2021, ya que son aquellos en los que la población activa descendió (aunque en el segundo trimestre de 2021 este mismo dato se disparó hasta llegar a las 460 000 personas ocupadas).</p>
+<h3 id="segunda-infografía">Segunda Infografía</h3>
+<p>Esta segunda <a href="https://datawrapper.dwcdn.net/CyWNQ/2/">infografía</a> tambiénemplea un gráfico de barras que me da, como usuario, la opción de ubicar el cursor para dar prioridad visual a algún conjunto en particular. No obstante, en este segundo ejemplo no tenemos dos grupos de datos, sino uno: la evolución anual de la rotación del empleo temporal. Un pequeño áñadido es la nota encima de la barrita de 2012 que reza “reforma laboral”. De 2012 en adelante todas las barras son de un color verde oscuro, en contraposición al verde claro de los años previos.</p>
+<p>Tanto esta como la anterior infografía dan una idea directa de lo que quieren representar y en ese sentido se muestran adecuadas a la extensión y pretensión de la noticia. Además, las leyendas que las acompañana y su interactividad la hacen facilmente comprensible para el usuario.</p>
+<p>Esta corta publicación es un ejercicio sencillo, pero efectivo, de periodismo de datos o “periodismo basado en datos”. No solo por el uso de las dos infografías, sino también porque el apoyo en documento estadísticos es constante en toda la información. No obstante, no parece que se hala prestado mucha importancia al color: los tonos de verde escogidos no remiten ni a la imagen del medio ni a nada que pueda identificar con el tema que se aborda en la noticia.</p>
+<p>####Fuente del trabajo</p>
+<p>El Gobierno se da un respiro con los buenos datos de la Encuesta de Población Activa Autoría: Redacción El Salto Fecha de publicación: 29 de julio de 2021 URL: https://www.elsaltodiario.com/crisis-economica/datos-encuesta-poblacion-activa-segundo-trimestre-2021</p>
+
+
+
 <p><a id="orgd940798"></a></p>
-<h2 id="nano">nano</h2>
-<ul>
-<li>Dado que estáis utilizando mucho nano os recomiendo dos cosas de nano que se pueden poner en su configuración.</li>
-<li>Primero comprobad que tenéis un archivo de configuración de <code>nano</code> con <code>ls ~/.nano* ~/nano*</code>. Si sale algo, echad un vistazo a ese archivo desde nano con <code>nano .nanorc</code>, si fuera <code>.nanorc</code> el nombre del archivo que tenéis.</li>
-<li>Tenéis que fijaros si tenéis comentadas o escritas dos opciones: <code>set softwrap</code> y <code>set linenumbers</code>. Escribidlo si no lo tenéis, guardadlo y salid. La próxima vez que entréis debéis tener ya las dos opciones activas.</li>
-</ul>
+<h1 id="practica-3-visualización"><u>Practica 3 - Miguel</u></h1>
+<h2 id="enlaces-a-las-infografías">Enlaces a las infografías:</h2>
+<p>Número de veces que hashtags valorativos de “FelipeVI” han sido “trending topic” entre marzo y julio de 2020: https://datawrapper.dwcdn.net/Vp8Sn/1/</p>
+<p>Número de veces que hashtags de cumpleaños con la fórmula FelizCumple_____ han sido “trending topic” entre marzo y julio de 2020: https://datawrapper.dwcdn.net/wc7La/1/</p>
+<h2 id="proceso-de-selección-y-limpieza-de-datos">Proceso de selección y limpieza de datos</h2>
+<p>En el presente trabajo quería visualizar, a partir del documento “feliz.csv” y mediante gráficos circulares (o de tarta), los datos que indican el número de veces que determinados mensajes fueron tendencia (“trending topic”) en un periodo de tiempo. Para ello sometí al archivo a un proceso de limpieza y selección de datos para el cual empleé la herramienta OpenRefine. Para ambos gráficos seguí pasos similares. Primero configuré el proyecto tal y como se muestra en la siguiente imagen:</p>
+<figure>
+<img src="imagenes/imagen-1-practica-3.png" alt="Imagen 1" width="1200"  /><figcaption aria-hidden="true">Imagen 1</figcaption>
+</figure>
+<p>A continuación, borré las columnas 1,4,5 y 6, trasladé la columna 3 al inicio y la renombré como “Sujetos”.</p>
+<figure>
+<img src="imagenes/imagen-2-practica-3.png" alt="Imagen 2" width="1200"  /><figcaption aria-hidden="true">Imagen 2</figcaption>
+</figure>
+<figure>
+<img src="imagenes/imagen-3-practica-3.png" alt="Imagen 3" width="1200"  /><figcaption aria-hidden="true">Imagen 3</figcaption>
+</figure>
+<p>Después usé “common transformations” para que los datos de las celdas de la columna 2 fueran leídos como fechas. Hecho esto, apliqué la faceta de línea de tiempo sobre la misma columna y con la herramienta de “edit rows” y “star rows” me quedé solo con los datos contenidos entre el 18 de marzo de 2020 y el 29 de julio de 2020. Escogí esta franja por ser la más activa de todo el documento (como se puede observar en la Timeline).</p>
+<figure>
+<img src="imagenes/imagen-4-practica-3.png" alt="Imagen 4" width="1200"  /><figcaption aria-hidden="true">Imagen 4</figcaption>
+</figure>
+<figure>
+<img src="imagenes/imagen-5-practica-3.png" alt="Imagen 5" width="1200"  /><figcaption aria-hidden="true">Imagen 5</figcaption>
+</figure>
+<p>Una vez tuve la horquilla temporal deseada, usé la faceta de texto en la columna “Sujetos” (en la que puedo ver el nº de veces que aparece cada palabra, hashtag, nombre, etc) y luego el filtro de texto, en el que escribí “FelipeVI” pues quería quedarme solo con aquellos hashtags que dan una opinión acerca de Felipe VI. Es por esta razón que descarté “#FelipeVI”: no aporta ninguna opinión acerca de él. Para excluirlo usé la faceta de texto como se ve en la imagen.</p>
+<figure>
+<img src="imagenes/imagen-6-practica-3.png" alt="Imagen 6" width="1200"  /><figcaption aria-hidden="true">Imagen 6</figcaption>
+</figure>
+<p>Al ser mi objetivo representar en una visualización de datos la frecuencia que tuvieron cada uno de estos mensajes dentro del periodo mencionado, necesitaba crear una columna que reflejara las cantidades quese ven en la faceta de texto (es decir, que mostrara que “#VivaElReyFelipeVI” aparece 2 veces, “#FelipeVIFarsante” aparece 4, etc). Para ello usé la opción “add column based on this column”. A esta nueva columna la nombré “Repeticiones” y en la caja de texto escribí la siguiente función:</p>
+<p>value.facetCount(“value”, “Sujetos”)</p>
+<p>De esta manera mi nueva columna tendrá en cada celda el número de veces que aparece un valor en la columna “Sujetos”, como vemos en la tercera imagen de abajo.</p>
+<figure>
+<img src="imagenes/imagen-7-practica-3.png" alt="Imagen 7" width="1200"  /><figcaption aria-hidden="true">Imagen 7</figcaption>
+</figure>
+<figure>
+<img src="imagenes/imagen-8-practica-3.png" alt="Imagen 8" width="1200"  /><figcaption aria-hidden="true">Imagen 8</figcaption>
+</figure>
+<figure>
+<img src="imagenes/imagen-9-practica-3.png" alt="Imagen 9" width="1200" /><figcaption aria-hidden="true">Imagen 9</figcaption>
+</figure>
+<p>Ahora, para la visualización adecuada, necesito que solo halla un dato por cada celda en ambas columnas (“Sujetos” y “Repeticiones”), pues de no ser así cada celda será representada como un dato individual y, así, el hashtag #PírateYaFelipeVI aparecería 22 veces, lo que no favorece a la representación y fácil lectura de la información.</p>
+<p>Primero, para quedarme con una celda por cada dato, las organicé por orden alfabético y en cada caso borré todas las celdas idénticas menos 1, que será la representativa en el documento que se suba a datawrapper. Para ello usé la pestaña “editar” que aparece ubicando la flecha encima de una celda. En el ejemplo de abajo he borrado una de las dos celdas de la columna “Sujetos” que contiene “#VivaElReyFelipeVI”. Una vez que tengo la celda única en cada uso la opción “Facet” en la columna “Sujetos” y dentro de “Customized Facets” elijo “Facet by blank”. De esta manera elimino todas las celdas en blanco y me quedan solo con las que trabajaré en la visualización.</p>
+<p>Exporto el documento y lo nombro como Proyecto 1 y será el que convierta en la primera infografía.</p>
+<figure>
+<img src="imagenes/imagen-10-practica-3.png" alt="Imagen 10" width="1200" /><figcaption aria-hidden="true">Imagen 10</figcaption>
+</figure>
+<figure>
+<img src="imagenes/imagen-11-practica-3.png" alt="Imagen 11" width="1200" /><figcaption aria-hidden="true">Imagen 11</figcaption>
+</figure>
+<figure>
+<img src="imagenes/imagen-12-practica-3.png" alt="Imagen 12" width="1200"  /><figcaption aria-hidden="true">Imagen 12</figcaption>
+</figure>
+<p>Para la segunda infografía los pasos son exactamente los mismos, pero esta vez busco todas las veces que ha sido tendencia la fórmula #FelizCumple______, como se ve en la imagen siguiente.</p>
+<figure>
+<img src="imagenes/imagen-13-practica-3.png" alt="Imagen 13" width="1200" /><figcaption aria-hidden="true">Imagen 13</figcaption>
+</figure>
+<p>De esta manera ya tenemos dos conjuntos de datos limpios con los cuales trabajar.</p>
+<h3 id="proceso-de-creación-de-las-infografías">Proceso de creación de las infografías</h3>
+<p>En ambas infografías he seguido exactamente los mismos pasos, pues he escogido gráficos circulares (o de tarta), ya que son efectivos para representar proporciones dentro de un total (por ejemplo, qué hashtag ha sido el más frecuente dentro del conjunto escogido). Además, como no manejo una cantidad demasiado grande de datos en ambas muestras (menos de 10), emplear este tipo de infografía me pareció lo más visual.</p>
+<p>Una vez dentro de la página de Datawrapper subí el archivo Excel en el que estaba exportado mi proyecto. En el tercer paso, “Visualize”, para la gráfica con los datos acerca de Felipe VI, elegí los colores de la bandera anarcomunista (rojo y negro) y el color azul, asociado a la realeza. La elección del primer par de colores viene dada por el recorrido histórico del anarquismo como movimiento político contrario a la monarquía y a las jerarquías sociales de cualquier tipo. Por esta razón todos los hashtags contrarios al Felipe VI tienen negro o rojo (las secciones de rojo y negro tienen en cada caso distintas tonalidades, para ser fácilmente identificables una de la otra). Para escoger los colores de la segunda infografía hice una búsqueda rápida de la palabra “cumpleaños” y examiné las imágenes relacionadas con ella. Decidí los colores a partir de los que aparecían en la mayoría de representaciones cumpleañeras: amarillo, púrpura, rosa, azul y verde.</p>
+
+
 <p><a id="orgb41739f"></a></p>
-<h2 id="zenburn">zenburn</h2>
-<ul>
-<li>Cuando se usa mucho tiempo la terminal conviene tener un tema agradable como puede ser <strong>Zenburn</strong>. Para instalarlo en Cygwin podéis seguir este <a href="https://github.com/beedaan/mintty_zenburn">enlace</a> o <a href="https://github.com/sonatard/color-theme-zenburn">este otro</a> que es el que he seguido en clase.</li>
-<li>Quien no tenga Cygwin sino Mintty (git-cli) también puede hacerlo.</li>
-<li>En GNOME (GNU/Linux) hay opción gráfica para cambiar el aspecto a Zenburn theme.</li>
-<li>En OSX hay opción gráfica aunque no sé si para Zenburn.</li>
-</ul>
+<h1 id="practica-4-historia-periodismo-datos"><u>Práctica 4 - Miguel</u></h1>
+<h1 id="practica-4-historia-periodismo-datos">Practica-4-historia-periodismo-datos</h1>
+<h2 id="enlaces-a-las-infografías">Enlaces a las infografías</h2>
+<p>Contaminación acústica 18 de marzo: https://datawrapper.dwcdn.net/Gx1PL/3/</p>
+<p>Contaminación acústica 18 de abril: https://datawrapper.dwcdn.net/6pxb0/2/</p>
+<figure>
+<img src="imagenes/imagen-01-practica-4.png" alt="Infografía 1" width="1200" /><figcaption aria-hidden="true">Infografía 1</figcaption>
+</figure>
+<figure>
+<img src="imagenes/imagen-02-practica-4.png" alt="Infografía 2" width="1200" /><figcaption aria-hidden="true">Infografía 2</figcaption>
+</figure>
+<p>Estos diagramas de puntos (dot plot) permiten observar lo alejados que están unos de otros los niveles de ruido registrados en cada una de las 30 estaciones de la Red Fija de Vigilancia de la Contaminación Acústica. Con el eje x puedo localizar el valor numérico de los puntos y con el eje y puedo ubicar la estación de cada dato. La interactividad de la visualización también me permite ver específicamente los valores de cada uno de los puntos, que poseen un color rojo representativo de la bandera municipal y autonómica de Madrid.</p>
+<h2 id="memoria">Memoria</h2>
+<h3 id="proceso-de-selección-y-limpieza-de-datos">Proceso de selección y limpieza de datos</h3>
+<p>Para seleccionar la información de este trabajo acudí al portal “datos.gob.es” que es la plataforma en la que se organiza y categoriza el Catálogo Nacional de Datos Abiertos. En este trabajo decidí centrarme en la contaminación acústica dentro de la ciudad de Madrid y, finalmente, usando para acotar el periodo en el que quiero centrarme, busqué específicamente los niveles de contaminación acústica en la ciudad durante el primer año de la pandemia de COVID-19 (2020). El enlace del conjunto de datos que escogí finalmente es <a href="https://datos.gob.es/es/catalogo/l01280796-covid-19-contaminacion-acustica-datos-diarios-con-actualizacion-semanal">este</a>.</p>
+i class="nav-item">
+            <a class="nav-<p>Mi objetivo es comparar los niveles de contaminación acústica en la ciudad en dos días distintos (el 18 de marzo y el 18 de abril) y, por ende, escogí el archivo “.csv” de los datos diarios de contaminación acústica recogidos por las 30 estaciones de Red Fija de Vigilancia de la Contaminación Acústica (una serie de estaciones repartidas por la ciudad que se encargan de captar información relativa a la condición acústica de su entorno). Una vez descargado el archivo, usé Openrefine para limpiar los datos y quedarme solo con los del 18 de marzo, en un primer archivo, y los del 18 de abril, en otro. Para ambos casos usé la siguiente configuración inicial:</p>
+<figure>
+<img src="imagenes/imagen-1-practica-4.png" alt="Imagen 1" width="1200" /><figcaption aria-hidden="true">Imagen 1</figcaption>
+</figure>
+<p>Dentro del proyecto usé las transformaciones comunes en la columna “Fechas” para que las celdas fueran leídas en formato fecha y, a continuación, usé la faceta de línea de tiempo y la selección mediante estrellas para borrar todos los datos anteriores al 18 de marzo de 2020. Para la visualización solo me interesaban los datos numéricos recogidos en la columna “LAeq24h”, que se refieren al “Nivel sonoro equivalente diario”, ya que me parecen los más representativos de toda la información recogida en toda una jornada. De manera que borré las columnas “Ld”, “Le” y “Ln” que se refieren, respectivamente, al “nivel sonoro continuo equivalente del periodo día”, “nivel sonoro continuo equivalente del periodo tarde” y “nivel sonoro continuo equivalente del periodo noche”. Después creo una nueva columna basada en “Estación”. La llamo “Estaciones” y en la caja de texto en lenguaje GREL escribo la expresión “Estación”+ value”. Así, cuando quiera crear la gráfica a partir de estas columnas las estaciones serán leídas como texto y no como número por Datawrapper. Finalmente borro la columna “Estación” para tener las 3 columnas con las que quiero trabajar:</p>
+<figure>
+<img src="imagenes/imagen-2-practica-4.png" alt="Imagen 2" width="1200" /><figcaption aria-hidden="true">Imagen 2</figcaption>
+</figure>
+<figure>
+<img src="imagenes/imagen-3-practica-4.png" alt="Imagen 3" width="1200" /><figcaption aria-hidden="true">Imagen 3</figcaption>
+</figure>
+<p>Para el archivo con los datos del 18 de abril sigo exactamente los mismos pasos, pero borro los datos anteriores al 18 de abril.</p>
+<h3 id="proceso-de-creación-de-infografías">Proceso de creación de infografías</h3>
+<p>Tras subir el archivo a Datawrapper y esconder la columna de fechas de la visualización (pues no es adecuada para la infografía que pienso hacer) elijo el diagrama de puntos (dot plot) como forma de visualizar mi información y le pongo como título “Contaminación acústica (en db) de Madrid 18 de marzo/abril 2020”. Como la información se refiere a la contaminación acústica en Madrid elegí un color rojo oscuro para los puntos de ambos diagramas.</p>
+<figure>
+<img src="imagenes/imagen-4-practica-4.png" alt="Imagen 4" width="1200" /><figcaption aria-hidden="true">Imagen 4</figcaption>
+</figure>
+<figure>
+<img src="imagenes/imagen-5-practica-4.png" alt="Imagen 5" width="1200" /><figcaption aria-hidden="true">Imagen 5</figcaption>
+</figure>
+<p>El formato de los números es 1,000[.00] como se ve en la imagen inferior. La etiqueta de “Estaciones” la alineo a la izquierda, en las anotaciones pongo mi nombre en la firma y vinculo el origen de los datos. Finalmente, publico la imagen y copio el enlace resultante.</p>
+<figure>
+<img src="imagenes/imagen-6-practica-4.png" alt="Imagen 6" width="1200" /><figcaption aria-hidden="true">Imagen 6</figcaption>
+</figure>
+<figure>
+<img src="imagenes/imagen-7-practica-4.png" alt="Imagen 7" width="1200" /><figcaption aria-hidden="true">Imagen 7</figcaption>
+</figure>
+<h3 id="historia-de-periodismo-de-datos-comentario-de-las-infografías">Historia de periodismo de datos (comentario de las infografías):</h3>
+<p>En estas dos infografías de diagrama de puntos podemos ver representados los niveles de ruido en dos días distintos recogidos por las 30 estaciones fijas en la ciudad de Madrid. Ambos días, 18 de marzo y abril, se enmarcan dentro del estado de alarma impuesto para frenar el avance del Covid-19. Durante este “confinamiento duro” la actividad cotidiana se detuvo y se restringió la libre circulación por las calles, por lo que el tráfico peatonal y vehicular se vio drásticamente reducido en este período (que arranca oficialmente el 15 de marzo). Esto último es relevante, pues el tráfico en Madrid es el culpable de más del <a href="https://www.europapress.es/madrid/noticia-trafico-causante-mas-80-contaminacion-acustica-madrid-20180424183441.html">80% del ruido en la ciudad</a>.</p>
+<p>Así pues, como lo predecible es que se note un gran cambio en los niveles de ruido que se registran en la capital, es interesante comparar la información de ambas infografías con el ruido en Madrid antes de la pandemia. En la primera infografía, la del 18 de marzo, vemos que la mayoría de puntos se ubican en el rango entre los 50 y los 63 decibelios de ruido; en la segunda se registran menores niveles de ruido: ningún punto sobrepasa la línea de los 63 decibelios (como sí ocurría con 3 estaciones en marzo) y la mayoría de puntos se encuentra entre los 49 y los 59 db. De media, el 18 de marzo de 2020 se registró en Madrid capital un ruido de 57,52 db y el 18 abril el promedio fue de 55,78 db. Si los comparamos con los niveles de otros años vemos que el descenso en los niveles de ruido ha sido notable: la media de ruido <a href="https://ecodiario.eleconomista.es/espana/noticias/9404771/09/18/Madrid-sobrepasa-un-27-los-limites-de-contaminacion-acustica-por-las-noches.html#:~:text=La%20contaminaci%C3%B3n%20ac%C3%BAstica%20en%20Madrid,en%202014%2C%202016%20y%202017">entre enero y julio de 2018 fue de 61,91</a> (e históricamente la media anual ha sido de 61,98). La media de ruido total de <a href="https://www.lavanguardia.com/local/madrid/20200510/481066782790/madrid-registra-4-decibelios-menos-de-ruido-en-sus-calles-que-antes-del-confinamiento.html">abril de 2020 fue de 57,29,</a> una cifra bastante por debajo de la media anual histórica de la ciudad y que desciende en más de 3 db al registro de abril de 2019 (60,67db).</p>
+<p>Estos datos superan el umbral marcado por <a href="https://www.europapress.es/madrid/noticia-trafico-causante-mas-80-contaminacion-acustica-madrid-20180424183441.html">la Unión Europea</a> y por la <a href="https://sede.madrid.es/sites/v/index.jsp?vgnextoid=0130511f3649e210VgnVCM2000000c205a0aRCRD&amp;vgnextchannel=6b3d814231ede410VgnVCM1000000b205a0aRCRD">Ordenanza de Protección contra la Contaminación Acústica y Térmica madrileña</a>, que establece un límite de ruido de 55 db de día y 45 de noche en zonas residenciales. En ambas infografías la mayoría de estaciones, tanto el 18 de marzo como en abril, registran niveles superiores a 55db: en el diagrama del 18 de marzo solo 8 estaciones registran un nivel de ruido medio inferior a 55db, en la infografía del 18 de abril este número asciende a 12 estaciones. Si bien la muestra de ambas visualizaciones se limita a un solo día en cada caso, teniendo en cuenta los promedios antes mencionados y los registros habituales de la ciudad, puedo afirmar que los efectos del confinamiento son visibles en estos dos diagramas de puntos.</p>
+
+
 <p><a id="orga5904d6"></a></p>
-<h2 id="openrefine">OpenRefine</h2>
-<p>Voy a resumir las dos operaciones que había preparado más la que presentó el compañero Aguirre. Empezaré por esta.</p>
+<h1 id="infografía"><u>Práctica 1 - Adrián</u></h1>
+<h1 id="infografía">INFOGRAFÍA</h1>
+<ul>
+<li>HISTORIA DE EEUU (INDEPENDENCIA Y GUERRA CIVIL)</li>
+</ul>
+<figure>
+<img src="https://user-images.githubusercontent.com/90325763/145458814-fc5e1bb5-69bb-46cd-9323-91fe53a5d854.jpg" alt="USA" width="1200" /><figcaption aria-hidden="true">USA</figcaption>
+</figure>
+<p>He seleccionado esta infografía porque, a pesar de la sencillez de sus dibujos, utiliza un gran número de datos numéricos (proporcionando una importante cantidad de información al lector sin que por ello resulte pesada). El uso de colores me parece también muy atractivo y acertado (curiosamente, el rojo y el azul vuelven a enfrentarse). Un detalle importante es que esta infografía me ha recordado mucho al estilo empleado en numerosos vídeos y libros de divulgación. El libro de ilustraciones “Prisioneros de la geografía” (Marshal T., Easton G, Smith J.; 2020) y canales de Youtube como “Crash Course” (https://www.youtube.com/user/crashcourse) utilizan estilos de ilustración similares.</p>
+
+
+
 <p><a id="orgd197275"></a></p>
-<h3 id="cómo-utilizar-el-conteo-de-las-facetas">Cómo utilizar el conteo de las facetas</h3>
-<pre><code>value.facetCount(&quot;value&quot;,&quot;Column 3&quot;)</code></pre>
+<h1 id="visualización-de-datos"><u>Práctica 2 - Adrián</u></h1>
+<h1 id="visualización-de-datos">VISUALIZACIÓN DE DATOS</h1>
+<h2 id="el-caso-del-oec">EL CASO DEL OEC</h2>
+<p>Hace unos días leí un artículo publicado por el Financial Times publicó sobre la crisis del gas en Europa. La originalidad con respecto a otros artículos de la misma temática residía en el apropiado uso de los mapas y en las visualizaciones de datos.</p>
+<ul>
+<li>Link del artículo: https://ig.ft.com/europes-gas-crisis-pipelines-explainer/</li>
+</ul>
+<p>Al acceder al texto los párrafos se van intercalando con diferentes mapas que, aunque situados en el fondo de la pantalla desde el primer momento, van cambiando con la lectura del artículo. Los mapas se alejan, se acercan, señalan gasoductos o colorean regiones concretas, mutan, en resumen, con el objetivo de trasladar al plano las ideas del texto.</p>
+<p><img src="https://user-images.githubusercontent.com/90325763/142302402-d118b3cc-2845-48ee-a52f-27da9fc3f61d.png" alt="IMAGEN_1" /> <p> Después de situar al lector, el “Visual Storytelling Team” del Financial Times utiliza una visualización de datos de tipo gráfica para explicar la comercialización de gas a nivel mundial. Lo curioso de este gráfico es que condensa en una única imagen interactiva las exportaciones y las importaciones, permitiendo al lector conectar ambas informaciones.</p>
+<figure>
+<img src="https://user-images.githubusercontent.com/90325763/142302405-828bb6b3-6e21-4547-8cf4-54c2d92bf365.png" alt="IMAGEN_2" /><figcaption aria-hidden="true">IMAGEN_2</figcaption>
+</figure>
+<p>Este gráfico me recordó muchísimo a los realizados por el OEC (Observatory of Economic Complexity), una plataforma sobre comercio internacional que hace de las visualizaciones de datos su punta de lanza. Me crucé con el OEC hace ya un tiempo y todavía no dejo de maravillarme ante la existencia de esta página web. La cantidad de datos gestionados por el OEC es ingente pero, aun así, son capaces de transformar gigantescas bases de datos en gráficos comprensibles para el usuario medio. Consiguen crear orden en la más absoluta y caótica complejidad.</p>
+<p>La página del EOC (https://oec.world/en) dispone de miles de visualizaciones de datos sobre las exportaciones e importaciones de todo el mundo. Además, uno puede elegir centrarse en un único país, en una única región o incluso en un único producto.</p>
+<p>En esta visualización, por ejemplo, podemos observar las exportaciones e importaciones de aceite de oliva. Como se advierte, los colores se dividen en continentes y el tamaño de los cuadriláteros de los países se adecúa al número del porcentaje.</p>
+<figure>
+<img src="https://user-images.githubusercontent.com/90325763/142302413-55066c6a-8f25-47e4-b750-1aca55984e09.png" alt="IMAGEN_3" width="1200" /><figcaption aria-hidden="true">IMAGEN_3</figcaption>
+</figure>
+<p>Antes de llegar a ser lo que es hoy, el OEC comenzó siendo una tesis de máster del “Massachusetts Institute of Technology. Dept. of Architecture. Program in Media Arts and Sciences” realizada por el profesional Alex Simoes en 2012 (AJG Simoes, CA Hidalgo. The Economic Complexity Observatory: An Analytical Tool for Understanding the Dynamics of Economic Development. Workshops at the Twenty-Fifth AAAI Conference on Artificial Intelligence. (2011)) En la propia página web se explica brevemente cómo fue el proceso de creación de la misma, explicando la idea original y la implementación de las diferentes actualizaciones (https://oec.world/en/resources/about).</p>
+<p>Asimismo, se explica cómo se produce la obtención de datos y, curiosamente, hasta las fórmulas matemáticas empleadas durante el proceso de construcción de las visualizaciones (https://oec.world/en/resources/documentation).</p>
+<p>Finalmente, cabe también señalar que puedes incluso generar tus propias visualizaciones de datos (gráfico en árbol, stacked, network, rings, geo map, line o scatter). En este caso podemos observar un tipo de gráfico Stacked que he personalizado yo mismo. En las opciones de creación he seleccionado que nos muestre las exportaciones de Canadá a Andorra entre 2002 y 2013.</p>
+<figure>
+<img src="https://user-images.githubusercontent.com/90325763/142302417-870d07ac-c568-4653-9e03-5a8c5cba14b4.png" alt="IMAGEN_4" /><figcaption aria-hidden="true">IMAGEN_4</figcaption>
+</figure>
+
+
 <p><a id="org7843eb3"></a></p>
-<h3 id="crear-una-columna-con-los-valores-de-otra-columna">Crear una columna con los valores de otra columna</h3>
-<pre><code>value = value.strip().lower()
-if &quot;trump&quot; in value:
-    return &quot;Donald Trump&quot;</code></pre>
-<p>&lt;a id=“org8</p>
-    <h1 class="mt-5">Sticky footer with fixed navbar</h1>
-    <p class="lead">Pin a footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added with <code class="small">padding-top: 60px;</code> on the <code class="small">main &gt; .container</code>.</p>
-    <p>Back to <a href="../examples/sticky-footer/">the default sticky footer</a> minus the navbar.</p>
+<h1 id="tarea-3-de-periodismo-de-datos"><u>Práctica 3 - Adrián</u></h1>
+<h1 id="tarea-3-de-periodismo-de-datos">TAREA 3 DE PERIODISMO DE DATOS</h1>
+<h2 id="gráfica">GRÁFICA:</h2>
+<figure>
+<img src="https://user-images.githubusercontent.com/90325763/143084390-b5a6daf4-32a1-463b-8019-49585dc8ed8d.png" alt="Grafica_Adrian_felizdia" /><figcaption aria-hidden="true">Grafica_Adrian_felizdia</figcaption>
+</figure>
+<ul>
+<li><p>INTRODUCCIÓN: Se trata de un gráfico de barras elaborado con Datawrapper en el que aparecen los hashtags de Twitter de los diferentes días de la semana. He acotado las fechas a junio y julio de 2020 porque en estos dos meses se producía un pico muy pronunciado de tweets (y así también practicaba con el timeline). He elegido este gráfico porque me permitía visualizar más fácilmente las diferencias entre los días (con un gráfico sectorial la percepción visual de los cambios pequeños es más difícil de percibir). Asimismo, he decidido mantener el #Finde porque podemos comprobar cómo este hashtag ha remplazado al #Viernes.</p></li>
+<li><p>PROCESO DE ELABORACIÓN: Antes de realizar el gráfico ordené y limpié los datos utilizando OpenRefine. Después de separar los datos en diferentes columnas utilizando la división por comas, eliminé las columnas innecesarias y me quedé con las fechas y los hashtags. A continuación, para quedarme únicamente con los datos de junio y julio (donde se produjo el pico de datos), transformé las cifras de la columna de las fechas en variables tipo “date” y creé una faceta “timeline”. Con los hashtags llevé a cabo un proceso parecido: ordené los datos utilizando una faceta tipo “texto” y los junté con la herramienta Cluster.</p></li>
+<li><p>DESCRIPCIÓN: En la gráfica de barras se obervan los datos de los hashtags “Feliz + Día de la semana” empleados por los usuarios de Twitter en junio y julio de 2020. #FelizSábado se sitúa en primer puesto con 121 tweets. Le siguen, en este orden, #FelizFinde y #FelizMartes con 115 tweets, #FelizLunes con 106, #FelizJueves con 102, #FelizDomingo con 97, #FelizMiercoles con 96 y #FelizViernes con 17. La escasez de tweets #FelizViernes ha de deberse a la aparición del #FelizFinde, que ha arrollado por completo al hashtag del viernes.</p></li>
+<li><p>Adjunto también en otro file el historial de acciones del propio OpenRefine (Undo/Redo).</p></li>
+</ul>
+
+<p><a id="org84a8ec7"></a></p>
+<h1 id="la-brecha-migratoria-de-madrid"><u>Práctica 4 - Adrián</u></h1>
+<h1 id="la-brecha-migratoria-de-madrid">La brecha migratoria de Madrid</h1>
+<h2 id="con-barrios-con-una-población-extranjera-de-más-del-30-sobre-el-total-la-población-migrante-se-concentra-en-el-sur-de-la-capital">Con barrios con una población extranjera de más del 30% sobre el total, la población migrante se concentra en el sur de la capital</h2>
+<figure>
+<img src="https://user-images.githubusercontent.com/90325763/143934255-697b9079-4186-43f5-b179-63e3c95a9178.png" alt="Porcentaje-de-poblacio-n-extranjera-en-los-barrios-de-madrid" /><figcaption aria-hidden="true">Porcentaje-de-poblacio-n-extranjera-en-los-barrios-de-madrid</figcaption>
+</figure>
+<ul>
+<li><p>Un eje este-oeste divide Madrid en dos mitades. En el norte, la mayoría de los barrios de los distritos de Chamartín, Moncloa-Aravaca, el Pardo y Hortaleza acogen en su interior a alrededor de un 10% de población extranjera. Valdeacederas, Berruguete y Bellas Vistas son, no obstante, la excepción a la regla. Con una población migrante superior al 20%, los tres pequeños barrios del distrito norteño de Tetúan manchan de azul el plano verdoso de la capital.</p></li>
+<li><p>En el sur, como vemos, la situación cambia. La media de población extranjera sube diez puntos y se sitúa en torno al 20%. Puente de Vallecas, Usera, Villaverde y Carabanchel se muestran como los distritos donde a más migrantes se acoge. Los barrios de San Diego (31.7%), san Cristóbal (35.9%) y Pradolongo (37%) son, junto a Sol (32.3%), las regiones de Madrid con mayor porcentaje de población extranjera.</p></li>
+<li><p>FUENTE DE LA IMAGEN: Elaboración propia vía https://app.datawrapper.de/archive#/5ktch</p></li>
+<li><p>PROCESO DE ELABORACIÓN: Tras descargar los datos demográficos de la página web (https://www.epdata.es/datos/poblacion-inmigrantes-emigrantes-otros-datos-habitantes-cada-municipio/3/madrid/4245) abrí la herrmanienta OpenRefine y eliminé las filas y columnas que no necesitaría después en la elaboración de la visualización de datos. Puesto que no había creado ningún mapa con anterioridad, decidí hacer uno con los porcentajes de población migrante de la ciudad de Madrid. Sorprendentemente, el proceso fue muy sencillo. Solo tuve que importar los datos y corregir algunos de los nombres de los barrios que Datawrapper había confundido.</p></li>
+<li><p>DESCRIPCIÓN: En el mapa se pueden observar, gracias a los distintos colores empleados, las diferencias en los porcentajes de población extranjera dependiendo del barrio madrileño en el que nos encontramos. Mientras que en Valderribas, El Pardo, Estrella y Mirasierra los migrantes no llegan al 5% de la población, en barrios como Pradolongo, San Cristóbal, Sol y san Diego superan el 30% del total.</p></li>
+</ul>
+<h2 id="está-relacionado-el-porcentaje-de-población-migrante-con-el-nivel-de-renta-de-los-hogares-de-madrid">¿Está relacionado el porcentaje de población migrante con el nivel de renta de los hogares de Madrid?</h2>
+<figure>
+<img src="https://user-images.githubusercontent.com/90325763/144118372-0f1e976d-8a9f-42e7-ba75-0f4f6ac40cd2.png" alt="jEUlI-renta-media-por-familia-2017-" /><figcaption aria-hidden="true">jEUlI-renta-media-por-familia-2017-</figcaption>
+</figure>
+<ul>
+<li><p>DESCRIPCIÓN: La división norte-sur vuelve a repetirse. San Cristóbal, San Diego y Amposta son los barrios de Madrid con un nivel de renta más bajo. El patrón se mantiene.</p></li>
+<li><p>Después de haber terminado el mapa decidí dar un paso más allá y comprobar si, como hipotetizaba, los barrios con un mayor porcentaje de población migrante se relacionaban de algún modo con el nivel de renta de sus habitantes. Descargué “Indicadores de renta media según Distritos, Barrios y Secciones censales” en la web del Ayuntamiento de Madrid (https://www.madrid.es/portales/munimadrid/es/Inicio/El-Ayuntamiento/Estadistica/Areas-de-informacion-estadistica/Economia/Renta/Urban-Audit/?vgnextfmt=default&amp;vgnextoid=6d40393c7ee41710VgnVCM2000001f4a900aRCRD&amp;vgnextchannel=ef863636b44b4210VgnVCM2000000c205a0aRCRD) y elaboré un nuevo mapa con los datos encontrados. Los filtré con OpenRefine dejando únicamente la columna de “Renta media por hogar en 2017”, por lo que tuve que eliminar el resto de columnas y dividir la de los barrios debido a que esta se encontraba numerada.</p></li>
+<li><p>El nuevo mapa, creado también con Datawrapper, parecía corroborar mi hipótesis. Para asegurarme, no obstante, decidí elaborar una última gráfica en la que se mezclaran ambas variables. Este es el resultado:</p></li>
+</ul>
+<figure>
+<img src="https://user-images.githubusercontent.com/90325763/144118379-2c2ce963-9fe3-42ec-b6cc-cb4251496776.png" alt="4JxLz-relaci-n-entre-la-renta-media-por-hogar-y-la-poblaci-n-migrante-en-los-barrios-de-madrid" /><figcaption aria-hidden="true"></figcaption>
+</figure>
+<p>DESCRIPCIÓN: Como se observa en la gráfica, la relación entre ambas variables es clara. Los barrios con una menor renta son, a su vez, los barrios con un mayor porcentaje de población extranjera. Y viceversa.</p>
+  
+<p><a id="org34e3957"></a></p>
+<h1 id="Metodología"><u>Metodología</u></h1>
+<p>PASO 1. Utilizando el comando cp hemos creado nuevos archivos Index con título “pie” y “cabecera”.</p>
+<ul>
+<li>Comandos empleados: “cp index.html pie.html” y “cp index.html cabecera.html”.</li>
+</ul>
+<p>PASO 2: Para la elaboración del cuerpo, sin embargo, lo que hemos hecho es convertir nuestras prácticas markdown en prácticas con lenguaje html. Para ello hemos utilizado el comando “pandoc.exe”.</p>
+<ul>
+<li>Ejemplo: pandoc.exe ../ejercicios/Practica-1-Comentario.md -o Practica-1-Comentario.html</li>
+</ul>
+<p>PASO 3. Los archivos html resultantes los hemos renombrado como …-base con “mv”.</p>
+<ul>
+<li>Ejemplo: mv Practica-1-Comentario.html Practica-1-Comentario-base.html.</li>
+</ul>
+<p>PASO 4. La unión de todos los archivos del cuerpo se ha conseguido mediante el comando “cat”. Los hemos juntado unificando las 8 prácticas (las 4 de Miguel Ángel y las 4 de Adrián) en un solo archivo. Miguel Ángel se ha encargado de hacer el comando cat desde su ordenador utilizando los archivos que Adrián había subido a GitHub. Para ello empleó “git clone” y, de este modo, descargó los archivos html de las prácticas de Adrián en su propio pc (los movió a su repositorio para tenerlos todos juntos en una misma carpeta). Al disponer de los 8 archivos necesarios ya solo había que concatenarlos.</p>
+<ul>
+<li>Comando utilizado para la concatenación: “cat cabecera.html Practica-1-Comentario-base.html Practica-2-Comentario-base.html Practica-3-visualizacion-base.html Practica-4-historia-periodismo-datos-base.html Practica_1_Adri-base.html Practica_2_Adri-base.html Practica_3_Adri-base.html Practica_4_Adri-base.html pie.html&gt; Trabajo-final.html”.</li>
+</ul>
+<p>PASO 5. ¡Eureka! El comando “cat” funcionó. El trabajo, no obstante, aún no ha terminado. Después de realizar la concatenación descubrimos que había un importante número de errores que debíamos corregir (imágenes demasiado grandes o que no se veían, textos fuera de lugar, escasa diferenciación entre prácticas…).</p>
+Desde nano empezamos a corregir los fallos en el archivo concatenado. 
+<p>- “Lang”: de “en” a “es” para cambiar el idioma a español.</p> 
+<p>- En “title” pusimos “Trabajo Final”.</p>
+<p>- En “navbar-brand” hemos cambiado “Fixed-navbar” por nuestros nombres.</p>
+<p>- En “nav-link active” hemos cambiado “home” por “Periodismo de Datos”.</p> 
+<p>- En “nav-link” hemos cambiado “link” por “Trabajo Final”.</p>
+<p>- En “nav-link disabled” hemos cambiado “disabled” por “Metodología.html”.</p>
+<p>- Hemos creado un índice siguiendo la estructura del encontrado en index.html. También hemos cambiado los títulos de las prácticas para que quedara todo mucho más claro. </p> 
+<p>- Hemos resaltado los títulos sybrayándolos con el comando”<u> </u>“. Ejemplo:”<u>Práctica 1 - Miguel</u>"
+</h1></p>
+<p>- Hemos eliminado algunas frases que no cuadraban en el conjunto de la página y hemos corregido algunas palabras sueltas. Justo a la derecha de la primera imagen de Miguel y de la primera imagen de Adrián, por ejemplo, nos aparecía una línea descolgada. Esto se debía a que faltaba añadir "p"al inicio de la sentencia.</p>
+<p>- Las imágenes de las prácticas de Miguel las hemos hecho más pequeñas añadiendo con nano width=“1200” a sus respectivas líneas.</p>
+<p>PASO 6: Añadir las metodologías. El archivo que ahora estamos escribiendo lo hemos pasado a html utilizando el comando “pandoc.exe” y lo hemos concatenado al resto del trabajo. Los comandos empleados han sido los descritos en los pasos 2, 3 y 4 de esta metodología.</p>
   </div>
 </main>
 
 <footer class="footer mt-auto py-3 bg-light">
   <div class="container">
-    <span class="text-muted">Place sticky footer content here.</span>
+    <span class="text-muted">Gracias por leer nuestro trabajo. Miguel Ángel Aguirre y Adrián Sánchez Arquero</span>
   </div>
 </footer>
 
