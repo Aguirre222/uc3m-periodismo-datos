@@ -1,3 +1,5 @@
+#Examen 19 de enero
+
 ##1. ¿Qué es el periodismo de datos? Aporta tus impresiones sobre el debate.
 
 En la actualidad el periodismo de datos es una parte o versión del periodismo que se encarga de acceder a registros electrónicos que contienen información de interés público (por ejemplo, los niveles de polución en el aire de los barrios obreros, cuentas de un ministerio de defensa o el volúmen del personal sanitario según los distritos de la ciudad) y manejar esos registros para que sean facilmente aprehendidos por los lectores. Para esto último se suele acudir a lo que llamamos visualización de datos, aunque no es imperativo para realizar "periodismo de datos". El periodista se encarga de acceder a la información en bruto, discriminar aquello que no le resulta esencial y trabajar con los datos restantes ya sea para crear una infografía o para redactar una noticia basándose en las cifras que ha escogiod. El objetivo final es que el lector tenga una información sustentada sobre una base fiable (registros hechos por autoridades o personalidades competentes).
